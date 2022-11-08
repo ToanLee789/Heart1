@@ -46,7 +46,7 @@ canvas {
 #pinkboard:before, #pinkboard:after {
   content: '';
   position: absolute;
-  background: #FF5CA4;
+  background: #030f4d;
   width: 100px;
   height: 160px;
   border-top-left-radius: 50px;
@@ -57,8 +57,8 @@ canvas {
   left: 100px;
   transform: rotate(-45deg);
   transform-origin: 0 100%;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25),
-              0 10px 10px rgba(0,0,0,0.22);
+  box-shadow: 0 14px 28px rgb(77, 1, 5),
+              0 10px 10px rgba(94, 1, 1, 0.22);
 }
  
 #pinkboard:after {
@@ -272,7 +272,7 @@ var ParticlePool = (function() {
     }
     context.closePath();
     // create the fill
-    context.fillStyle = '#FF5CA4';
+    context.fillStyle = '#CC00FF';
     context.fill();
     // create the image
     var image = new Image();
